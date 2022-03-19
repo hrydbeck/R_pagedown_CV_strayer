@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 )
 
 library(magrittr) # For the pipe
-source("/Users/xrydbh/Personal/Søka_jobb/my_cv_R/cv_printing_functions.r")
+source("/Users/xrydbh/Personal/Søka_jobb/R_pagedown_CV_strayer/cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
@@ -56,7 +56,7 @@ datadrivencv::build_network_logo(CV$entries_data)
 if(params$pdf_mode){
   cat("View this CV online with links at https://rpubs.com/halryd/cv")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/halryd/cv/blob/main/hrydbeck_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/halryd/R_pagedown_CV_strayer/blob/main/cv.pdf)")
 }
 ```
 
