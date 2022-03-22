@@ -83,7 +83,7 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available on [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+The source code is available <a href="https://github.com/halryd/R_pagedown_CV_strayer" target="_blank">here</a>.
 
 Last updated on `r Sys.Date()`.
 
@@ -106,8 +106,27 @@ CV %<>% print_text_block("empty_row")
 
 ```{r}
 # Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("intro") 
+CV %<>% print_text_block("profile") 
 ```
+
+
+```{r}
+# Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("objective") 
+```
+
+```{r}
+# Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("drivingForces") 
+```
+
+
+```{r}
+# Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("strengths") 
+```
+
+
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
