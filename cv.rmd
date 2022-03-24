@@ -244,10 +244,6 @@ CV %<>% print_section('academic_articles')
 ```
 
 
-```{r}
-CV %<>% print_links()
-```
-
 Special competences {data-icon=wrench}
 --------------------------------------------------------------------------------
 
