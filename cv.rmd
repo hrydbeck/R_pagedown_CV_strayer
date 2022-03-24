@@ -45,6 +45,8 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
+![Foto_hr](./icons/hr.jpeg){width=80%}
+
 ```{r}
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
@@ -69,12 +71,12 @@ CV %>% print_contact_info()
 
 
 
-Language Skills {#skills}
---------------------------------------------------------------------------------
+<!-- Language Skills {#skills} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %>% print_skill_bars()
-```
+<!-- ```{r} -->
+<!-- CV %>% print_skill_bars() -->
+<!-- ``` -->
 
 
 
@@ -124,6 +126,11 @@ CV %<>% print_text_block("drivingForces")
 ```{r}
 # Note the special double pipe so we modify the CV object in place
 CV %<>% print_text_block("strengths") 
+```
+
+```{r}
+# Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("relevantCompetences") 
 ```
 
 
@@ -231,6 +238,7 @@ CV %<>% print_text_block('publications_aside')
 ```
 :::
 
+
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
@@ -239,5 +247,46 @@ CV %<>% print_section('academic_articles')
 ```{r}
 CV %<>% print_links()
 ```
+
+Special competences {data-icon=wrench}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('specialCompetences_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('specialCompetences')
+```
+
+Languages {data-icon=language}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('Languages')
+```
+
+Conference participation {data-icon=chalkboard}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('Conference_participation')
+```
+
+
+Pedagogic experience {data-icon=comments}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('pedagogic_experience')
+```
+
+```{r}
+CV %<>% print_links()
+```
+
+
 
 
