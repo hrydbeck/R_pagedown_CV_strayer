@@ -15,19 +15,21 @@
 #                   "github_document", 
 #                   output_dir="./markdown/")
 
+# Set filename
+fn <- "cv_hr_2022_04_30_Clinical_Application_Consultant_NGS_themo_fisher"
 # Knit the HTML version
-rmarkdown::render("cv.rmd",
+rmarkdown::render(paste(fn,".rmd",sep=""),
                   params = list(pdf_mode = FALSE),
-                  output_file = "cv.html")
+                  output_file = paste(fn,".html",sep=""))
 
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
-rmarkdown::render("cv.rmd",
+rmarkdown::render(paste(fn,".rmd",sep=""),
                   params = list(pdf_mode = TRUE),
                   output_file = tmp_html_cv_loc)
 
 # Convert to PDF using Pagedown
 pagedown::chrome_print(input = tmp_html_cv_loc,
-                       output = "cv.pdf")
+                       output = paste(fn,".pdf",sep=""))
 
 
