@@ -58,7 +58,7 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://rpubs.com/halryd/cv",params$cv_version,sep="")
+  cat(paste("View as html: https://rpubs.com/halryd/cv",params$cv_version,sep=""))
 } else {
   cat(paste("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/halryd/R_pagedown_CV_strayer/blob/main/cv",params$cv_version,".pdf)",sep=""))
 }
