@@ -6,7 +6,7 @@ params:
   pdf_mode:
     value: false
   cv_version:
-    value: "_2022_04_17_Sen_Sci_Mol_Bio_Bioinf_AZ"
+    value: "_hr_2022_04_17_Sen_Sci_Mol_Bio_Bioinf_AZ"
 output:
   pagedown::html_resume:
     css: ['dd_cv.css', 'resume']
