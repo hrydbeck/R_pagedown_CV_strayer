@@ -2,5 +2,5 @@
 sheets_deauth has to be changed to gs4_deauth()
 
 # in cv.r
-source("cv_printing_functions.r") has to be cahnged to 
+source("cv_printing_functions.r") has to be chnged to 
 source("/Users/xrydbh/Personal/Søka_jobb/my_cv_R/cv_printing_functions.r")
