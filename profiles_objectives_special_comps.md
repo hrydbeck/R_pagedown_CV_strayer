@@ -12,16 +12,24 @@ Expert in applied bioinformatics with 8+ years of experience in providing transp
 
 Expert in applied bioinformatics with 8+ years of experience in providing transparent and reproducible solutions for diverse areas of biological and medical research. Deep knowledge of underlying issues in need of bioinformatics support. Experience includes genetic epidemiology of rare diseases, integrative omics analysis of data from cancer tissue and immune cells, microarray analysis, preprocessing to final analysis of NGS output, sequence alignment and assembly working with non-human genomes from bacteria to fish species and wolf in evolutionary research and finally integrative analysis of proteomics, clinical and brain imaging data. Focused on keeping at the forefront of the latest within computational omics analysis. I seek to understand the healthcare environment and external trends. I have emotional intelligence, strong communication skills and am a great teammate. I am dynamic and work very hard to achieve the intended result which has been decided from the start on time. I am not pretentious. I speak my mind and make it safe for others to do so. My collegues say about me that I am hardworking, joyful and problemsolving. I love being creative and come up solutions that wasn’t thought of in advance but am also careful that no negative consequences have an impact on anyone else. 
 
+### 2022 04 28 Bioinformatiker Core Facilities GU
+
+Expert in applied bioinformatics with 8+ years of experience in providing transparent and reproducible solutions for diverse areas of biological and medical research. Deep knowledge of underlying issues in need of bioinformatics support. Experience includes genetic epidemiology of rare diseases, integrative omics analysis of data from cancer tissue and immune cells, microarray analysis, preprocessing to final analysis of NGS output. The integrative analysis, performed during phd, encompassed, gene expression, copy number variation, promoter methylation and histone occupancy data. Integrative analysis of proteomics, clinical and brain imaging data. Focused on keeping at the forefront of the latest within computational omics analysis. I seek to understand the healthcare environment and external trends. I have emotional intelligence, strong communication skills and am a great teammate. I am dynamic and work very hard to achieve the intended result which has been decided from the start on time. I am not pretentious. I speak my mind and make it safe for others to do so. My collegues say about me that I am hardworking, joyful and problemsolving. 
+
+ 
 
 ## Objective
 ### 2022 04 17 Sen Sci Mol Bio Bioinf AZ
 To use my scientific expertise to contribute to the efforts of the pharmaceutical industry towards the curation of disease. To take part in fulfilling the promises of genome editing.
 
 ### 2022 04 30 Clinical Application Consultant NGS themo fisher
-To contribute to improved biological/medical insight through the develpment of supporting computational infrastructure and algorithms
+To contribute to improved biological/medical insight through the development of supporting computational infrastructure and algorithms
 
 ### 2022 04 24 Bioinf OlsAro Crop Biotech
 To further develop my skills in developing reproducible bioinformatics pipelines in a commercial setting and to contibute to the annotation of genomes and to the increased understanding of functional genomics.
+
+### 2022 04 28 Bioinformatiker Core Facilities
+To further develop my skills in developing reproducible bioinformatics pipelines and contribute to improved insight into cnacer development and treatment through the development of supporting computational infrastructure and algorithms. To further develop my knowledge of and skills in applying AI and ML in piplines. To share attained knowldge.
 
 ## Relevant competences
 ### General
@@ -39,6 +47,14 @@ To further develop my skills in developing reproducible bioinformatics pipelines
 * GWAS
 * scientific communication and writing 
 * project management 
+
+### 2022 04 28 Bioinformatiker Core Facilities GU
+* NGS preprocessing and analysis 
+* shell, (Python), R, git, Github, Nexflow, Docker
+* Integrative cancer omics analysis
+* scientific communication and writing 
+* project management 
+
 
 ## Driving forces
 The increased understanding of life, who we are, and the curation of diseases

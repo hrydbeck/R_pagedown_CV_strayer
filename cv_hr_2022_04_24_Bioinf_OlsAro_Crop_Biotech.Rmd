@@ -89,7 +89,7 @@ Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 The source code is available <a href="https://github.com/halryd/R_pagedown_CV_strayer" target="_blank">here</a>.
 
-Last updated on `r Sys.Date()`.
+<!-- Last updated on `r Sys.Date()`. -->
 
 
 Main
