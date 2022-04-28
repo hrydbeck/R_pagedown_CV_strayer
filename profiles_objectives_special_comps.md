@@ -31,6 +31,10 @@ To further develop my skills in developing reproducible bioinformatics pipelines
 ### 2022 04 28 Bioinformatiker Core Facilities
 To further develop my skills in developing reproducible bioinformatics pipelines and contribute to improved insight into cnacer development and treatment through the development of supporting computational infrastructure and algorithms. To further develop my knowledge of and skills in applying AI and ML in piplines. To share attained knowldge.
 
+
+### 2022  05 02 Senior Data Scientist Associate Director AZ R-135981-2
+To further develop my skills in developing reproducible bioinformatics pipelines and contribute to the efforts of the pharmaceutical industry towards the curation of disease and treatment. To further develop my knowledge of and skills in applying AI and ML in pipelines. To share attained knowledge.
+
 ## Relevant competences
 ### General
 * NGS preprocessing and analysis 
@@ -49,6 +53,14 @@ To further develop my skills in developing reproducible bioinformatics pipelines
 * project management 
 
 ### 2022 04 28 Bioinformatiker Core Facilities GU
+* NGS preprocessing and analysis 
+* shell, (Python), R, git, Github, Nexflow, Docker
+* Integrative cancer omics analysis
+* scientific communication and writing 
+* project management 
+
+### 2022  05 02 Senior Data Scientist Associate Director AZ R-135981-2
+
 * NGS preprocessing and analysis 
 * shell, (Python), R, git, Github, Nexflow, Docker
 * Integrative cancer omics analysis
