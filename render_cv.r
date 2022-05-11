@@ -16,7 +16,7 @@
 #                   output_dir="./markdown/")
 
 # Set filename
-fn <- "cv_hr_2022_05_12_Bioinformatics_Scientist_Graduate_AZ_R-135966" #"cv_hr_2022_04_17_Sen_Sci_Mol_Bio_Bioinf_AZ"    #cv,"cv_hr_2022_04_30_Clin_App_Cons_NGS_TF"# 
+fn <- "cv_hr_2022_05_13_researchers_in_bioinformatics_chalmers" #"cv_hr_2022_04_17_Sen_Sci_Mol_Bio_Bioinf_AZ"    #cv,"cv_hr_2022_04_30_Clin_App_Cons_NGS_TF"# 
 # Knit the HTML version
 rmarkdown::render(paste(fn,".rmd",sep=""),
                   params = list(pdf_mode = FALSE),

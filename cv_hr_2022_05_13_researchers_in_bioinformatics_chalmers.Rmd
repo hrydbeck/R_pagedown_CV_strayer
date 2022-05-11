@@ -56,13 +56,13 @@ datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
-```{r}
-if(params$pdf_mode){
-  cat(paste("View as [html](https://rpubs.com/halryd/cv",params$cv_version,")",sep=""))
-} else {
-  cat(paste("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/halryd/R_pagedown_CV_strayer/blob/main/cv",params$cv_version,".pdf)",sep=""))
-}
-```
+<!-- ```{r} -->
+<!-- if(params$pdf_mode){ -->
+<!--   cat(paste("View as [html](https://rpubs.com/halryd/cv",params$cv_version,")",sep="")) -->
+<!-- } else { -->
+<!--   cat(paste("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/halryd/R_pagedown_CV_strayer/blob/main/cv",params$cv_version,".pdf)",sep="")) -->
+<!-- } -->
+<!-- ``` -->
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -125,11 +125,19 @@ CV %<>% print_text_block("relevantCompetences_2022_05_13_researchers_in_bioinfor
 ```
 
 
+<!-- ```{r} -->
+<!-- # Note the special double pipe so we modify the CV object in place -->
+<!-- CV %<>% print_text_block("referenses")  -->
+<!-- ``` -->
 
+<!-- ::: aside -->
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('research_experiance_aside') -->
+<!-- ``` -->
+<!-- ::: -->
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
-
 
 ```{r}
 CV %<>% print_section('research_positions')
@@ -239,11 +247,11 @@ CV %<>% print_section('academic_articles')
 Special competences {data-icon=wrench}
 --------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('specialCompetences_aside')
-```
-:::
+<!-- ::: aside -->
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('specialCompetences_aside') -->
+<!-- ``` -->
+<!-- ::: -->
 
 ```{r}
 CV %<>% print_section('specialCompetences')
@@ -270,6 +278,16 @@ Pedagogic experience {data-icon=comments}
 ```{r}
 CV %<>% print_section('pedagogic_experience')
 ```
+
+References {data-icon=comments}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('References')
+```
+
+
+
 
 ```{r}
 CV %<>% print_links()
