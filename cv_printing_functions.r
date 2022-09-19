@@ -181,6 +181,17 @@ print_text_block <- function(cv, label){
   invisible(strip_res$cv)
 }
 
+print_text_block_halfdan <- function(cv, label){
+  text_block <- dplyr::filter(cv$text_blocks, loc == label) %>%
+    dplyr::pull(text)
+  
+  strip_res <- list(cv = cv, text = text_block) # sanitize_links(cv, text_block)
+  
+  cat(strip_res$text)
+  
+  invisible(strip_res$cv)
+}
+
 
 
 #' @description Construct a bar chart of skills
