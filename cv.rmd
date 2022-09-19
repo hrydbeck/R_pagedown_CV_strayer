@@ -5,6 +5,8 @@ date: "`r Sys.Date()`"
 params:
   pdf_mode:
     value: false
+  cv_version:
+    value: "_hr_2022_08_29_Computational_Biologist_gsk_req_id_332717"
 output:
   pagedown::html_resume:
     css: ['dd_cv.css', 'resume']
@@ -45,7 +47,7 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-![Foto_hr](./icons/hr.jpeg){width=80%} 
+![Foto_hr](./icons/halfdan_cv.jpg){width=80%} 
 
 ```{r}
 # Build interactive network of positions colored by section
@@ -54,13 +56,13 @@ datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
-```{r}
-if(params$pdf_mode){
-  cat("View this CV online with links at https://rpubs.com/halryd/cv")
-} else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/halryd/R_pagedown_CV_strayer/blob/main/cv.pdf)")
-}
-```
+<!-- ```{r} -->
+<!-- if(params$pdf_mode){ -->
+<!--   cat(paste("View as [html](https://rpubs.com/halryd/cv",params$cv_version,")",sep="")) -->
+<!-- } else { -->
+<!--   cat(paste("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/halryd/R_pagedown_CV_strayer/blob/main/cv",params$cv_version,".pdf)",sep="")) -->
+<!-- } -->
+<!-- ``` -->
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -87,7 +89,7 @@ Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 The source code is available <a href="https://github.com/halryd/R_pagedown_CV_strayer" target="_blank">here</a>.
 
-Last updated on `r Sys.Date()`.
+<!-- Last updated on `r Sys.Date()`. -->
 
 
 Main
@@ -114,33 +116,61 @@ CV %<>% print_text_block("profile")
 
 ```{r}
 # Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("objective") 
+CV %<>% print_text_block("objective_2022_09_04_template_AZ")#  
 ```
 
 ```{r}
 # Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("drivingForces") 
+CV %<>% print_text_block("relevantCompetences_2022_05_02_Senior_Data_Scientist_Associate_Director_AZ_R-135981-2") 
 ```
 
 
 ```{r}
 # Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("strengths") 
+CV %<>% print_text_block("recommendations")
 ```
 
-```{r}
-# Note the special double pipe so we modify the CV object in place
-CV %<>% print_text_block("relevantCompetences") 
-```
+
+<!-- ```{r} -->
+<!-- # Note the special double pipe so we modify the CV object in place -->
+<!-- CV %<>% print_text_block("referenses")  -->
+<!-- ``` -->
 
 
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
+<!-- ```{r} -->
+<!-- CV %<>% print_section('research_positions_1') -->
+<!-- ``` -->
+
+
+
+<!-- Research Experience cont. {data-icon=laptop} -->
+<!-- -------------------------------------------------------------------------------- -->
 
 ```{r}
 CV %<>% print_section('research_positions')
+```
+
+<!-- ::: aside -->
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('recommendations') -->
+<!-- ``` -->
+<!-- ::: -->
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+<!-- ::: aside -->
+<!-- ```{r} -->
+<!-- CV %<>% print_text_block('research_experiance_aside') -->
+<!-- ``` -->
+<!-- ::: -->
+
+```{r}
+CV %<>% print_section('education')
 ```
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -155,21 +185,6 @@ CV %<>% print_text_block('teaching_experience_aside')
 ```{r}
 CV %<>% print_section('teaching_positions')
 ```
-
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('research_experiance_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('education')
-```
-
 
 
 <!-- Industry Experience {data-icon=suitcase} -->
@@ -264,12 +279,12 @@ Languages {data-icon=language}
 CV %<>% print_section('Languages')
 ```
 
-Conference participation {data-icon=chalkboard}
---------------------------------------------------------------------------------
+<!-- Conference participation {data-icon=chalkboard} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %<>% print_section('Conference_participation')
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_section('Conference_participation') -->
+<!-- ``` -->
 
 
 Pedagogic experience {data-icon=comments}
@@ -278,6 +293,9 @@ Pedagogic experience {data-icon=comments}
 ```{r}
 CV %<>% print_section('pedagogic_experience')
 ```
+
+
+
 
 ```{r}
 CV %<>% print_links()
